@@ -1,5 +1,7 @@
 from ubuntu:18.04
 
+ENV TERM xterm-256color
+
 RUN apt-get update && apt-get install -y \
     git \
     wget \
